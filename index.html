@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALLOWEEN</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./images/favicon2.ico" type="image/x-icon">
+    <script src="./javascript/function.js"></script>
+</head>
+<body onload="sonar('fondo')">
+
+    <div id="container">
+        <audio id="" controls> 
+            <source src="sounds/John Carpenter - HALLOWEEN Theme (CALETAMP3.ORG).mp3" type="audio/mpeg">
+        </audio>
+        <audio id="grito">
+            <source src="sounds/grito.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="arañaa">
+            <source src="sounds/000205193_prev.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="fantasmaa">
+            <source src="sounds/Scary_Sound-Mark_DiAngelo-1101865305.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="brujaa">
+            <source src="sounds/carcajada-una-bruja.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="calaveraa">
+            <source src="sounds/Hl2_Rebel-Ragdoll485-573931361.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="murcielagoo">
+        <source src="sounds/Bats_in_Cave-Mike_Koenig-1902240953.mp3" type="audio/mpeg">
+        </audio>
+        <p id="titulo">Scary HALLOWEEN party</p>
+        <p id="hora"> 
+        ¡HAVE FUN! &nbsp; &nbsp;
+        <small>Please come on: 31-10 to 00:00 </small> 
+        &nbsp; &nbsp; ¡COME DISGUISED!
+        </p> 
+
+        <img id = "brujacocina" src="images/brujacocinando.gif" height="100";>
+        <img id = "murcielago" src="images/murcielago.png" height="175">        
+        <img id = "esqueleto" src="images/esqueleto.gif" height="100">
+        <img id = "esqueleto2" src="images/esqueleto.gif" height="100">
+        <img id = "calabaza" src="images/calabazariendo.gif" height="100">
+        <img id = "bruja2" src="images/La bruja de Escazú (3).png" height="100">
+
+        <div id="punto1" onclick="mostrar('fantasma');sonar('fantasmaa');"></div>
+        <img id ="fantasma" src="images/gif animado,halloween,compartir (3).gif" height="150" onclick="ocultar('fantasma');parar('fantasmaa');">
+        
+        <div id ="punto2" onclick="mostrar('vampira');sonar('grito');"></div>
+        <img id ="vampira" src="images/vampiresa.gif" height="300" onclick="ocultar('vampira');parar('grito');"> 
+        
+        <div id = "punto3" onclick="mostrar('murcielagos');sonar('murcielagoo')"></div>
+        <img id ="murcielagos" src="images/bat_PNG35.png" height="250" onclick="ocultar('murcielagos');parar('murcielagoo')">
+
+        <div id = "punto4" onclick="mostrar('bruja1');sonar('brujaa');"></div>
+        <img id = "bruja1" src="images/bruja1.png" height="250" onclick ="ocultar('bruja1');parar('brujaa');">
+
+    </div>    
+</body>
+</html>

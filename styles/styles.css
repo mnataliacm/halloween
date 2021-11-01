@@ -1,0 +1,138 @@
+@font-face {
+    font-family: lobo;
+    src: url("../fonts/Lycanthrope.ttf");
+}
+@font-face {
+    font-family: grunt;
+    src: url("../fonts/GRUNTREAPER.ttf");
+}
+body {background-color: black;}
+#container {
+    background-image: url("../images/background.jpg");
+    width: 1900px;
+    height: 900px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+/*edito texto*/
+#titulo {
+    font-family:'lobo';            
+    font-size:5em;                 
+    color:red;
+    /*text-decoration-color: rgb(5, 0, 1);*/
+    text-shadow: -6px -6px -6px orange,
+                5px 5px 5px yellow;
+    position:absolute;
+    bottom:0px;
+    right:125px;
+}
+#hora {
+    font-family: 'grunt';
+    font-size: 4em;
+    letter-spacing:2px;
+    color: black;
+    text-shadow: 7px 7px 7px red,
+                 -1px 1px 1px orange;
+    position:absolute;
+    left: 150px;
+    margin-top: 1px;
+}
+/* añado dibujos*/
+#brujacocina {position: absolute;
+    top: 400px;
+    left: 400px;    
+}
+#esqueleto {position: absolute;
+    top:200px;
+    left:1110px;
+}
+#esqueleto2 {position: absolute;
+    top: 200px;
+    left: 1250px;    
+}
+#murcielago {position: absolute;
+    top: 200px;
+    left: 100px;
+    cursor: pointer;  
+}
+#bruja1 {position: absolute;
+    top: 200px;
+    left: 1500px;    
+}
+#calabaza {position: absolute;
+    top: 720px;
+    left: 1770px;    
+}
+#bruja2 {position: absolute;
+    top: 200px;
+    left: 1500px;    
+}
+
+
+
+
+/* animaciones y su posicion*/
+#punto1 {
+    width:40px;
+    height:40px;
+    position:absolute;
+    top: 360px;
+    left:1185px;
+    cursor:crosshair;
+    
+}
+#fantasma { position:absolute;
+    top:400px;
+    left:1185px;
+    visibility: hidden;
+    cursor: crosshair;
+}
+
+#punto2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 600px;
+    left: 335px;
+    cursor: crosshair;
+}
+#vampira {position:absolute;
+top: 325px;
+left:1500px;
+visibility: hidden;
+cursor: crosshair;
+}
+
+#punto3 {
+width:50px;
+height:50px;
+position:absolute;
+top: 500px;
+left: 725px;
+cursor: crosshair;
+}
+
+#murcielagos {position: absolute;
+top:250px;
+left:650px;
+visibility: hidden;
+cursor: crosshair;
+}
+
+#punto4 {
+width:40px;
+height:100px;
+position:absolute;
+top: 515px;
+left: 890px;
+cursor: crosshair;
+}
+#bruja1 {position: absolute;
+top:500px;
+left:650px;
+visibility: hidden;
+cursor: crosshair;
+}
+
+/*border:1px solid white;*/
