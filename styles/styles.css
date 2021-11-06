@@ -1,10 +1,14 @@
 @font-face {
-    font-family: lobo;
-    src: url("../fonts/Lycanthrope.ttf");
+    font-family: sangre;
+    src: url("../fonts/blooods_.ttf");
 }
 @font-face {
     font-family: grunt;
     src: url("../fonts/GRUNTREAPER.ttf");
+}
+@font-face {
+    font-family: lobo;
+    src: url("../fonts/Lycanthrope.ttf");
 }
 body {background-color: black;}
 #container {
@@ -17,26 +21,35 @@ body {background-color: black;}
 }
 /*edito texto*/
 #titulo {
-    font-family:'lobo';            
-    font-size:5em;                 
-    color:red;
-    /*text-decoration-color: rgb(5, 0, 1);*/
-    text-shadow: -6px -6px -6px orange,
-                5px 5px 5px yellow;
+    font-family: 'lobo';
+    font-size: 5em;
+    color: red;
+    text-shadow: -7px 7px 7px yellowgreen,
+                 -7px 3px 3px rgb(132, 0, 255);
     position:absolute;
-    bottom:0px;
-    right:125px;
+    right: 125px;
+    bottom: 5px;
 }
 #hora {
-    font-family: 'grunt';
-    font-size: 4em;
-    letter-spacing:2px;
+    font-family: 'lobo';
+    font-size: 3em;
     color: black;
-    text-shadow: 7px 7px 7px red,
-                 -1px 1px 1px orange;
+    text-shadow: 7px 7px 7px rgb(241, 7, 7),
+                 -7px 1px 1px rgb(241, 164, 20);
     position:absolute;
-    left: 150px;
-    margin-top: 1px;
+    left: 250px;
+    top: 0px;
+}
+h4 {
+    font-family: 'grunt';
+    font-size: 2em;
+    color: black;
+    text-shadow: 7px 7px 7px rgb(207, 182, 39),
+                 -2px 1px 1px orange;
+    position:absolute;
+    left: 50px;
+    top: 700px;
+    
 }
 /* añado dibujos*/
 #brujacocina {position: absolute;
